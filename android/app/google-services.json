@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "762910125247",
+    "project_id": "flutter-fcm-tutorial-3974a",
+    "storage_bucket": "flutter-fcm-tutorial-3974a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762910125247:android:4aad0efa0862bed01e2a0a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_fcm_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgG8C0D65aek-L4bAX-ffJfboTXD9-1yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
