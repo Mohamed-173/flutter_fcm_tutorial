@@ -46,7 +46,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
     );
   }
 
-  print("Handling a background message: ${message.messageId}");
+  debugPrint("Handling a background message: ${message.messageId}");
 }
 
 Future<void> configureNotifications() async {
@@ -67,7 +67,7 @@ Future<void> configureNotifications() async {
     final fcmToken = await FirebaseMessaging.instance.getToken(
       vapidKey: "Your-VAPID-Key-Here",
     );
-    print("FCM token for Web: $fcmToken");
+    myDebugPrint("FCM token for Web: $fcmToken");
   } else {
     // For Android, retrieve FCM token without VAPID key
     final fcmToken = await FirebaseMessaging.instance.getToken();
